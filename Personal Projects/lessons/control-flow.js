@@ -71,12 +71,29 @@ const course = {
     sections: 7
 }
 
-for (const key in course) {
-    console.log(course[key]);
-}
+// for (const key in course) {
+//     console.log(course[key]);
+// }
 
 // FOR-OF LOOP
 
-for (let element of numbers) {
-    console.log(element);
+// for (let element of numbers) {
+//     console.log(element);
+// }
+
+// BREAK and CONTINUE
+
+// for (let i = 0; i < 10; i++) {
+//     if (i === 5) {
+//         break; // exit the loop when i is 5
+//     }
+//     console.log(i);
+// }
+
+
+for (let i = 0; i < 10; i++) {
+    if (i === 5) {
+        continue; // skip the loop when i is 5
+    }
+    console.log(i);
 }
