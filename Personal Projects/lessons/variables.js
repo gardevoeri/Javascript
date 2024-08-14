@@ -78,7 +78,7 @@ productColors[0] = 42; // use bracket notation to access through the index
 
 // console.log(productColors);
 
-console.log(productColors.length); // Function lenght to count the number of objects in the array
+//console.log(productColors.length); // Function lenght to count the number of objects in the array
 
 
 // FUNCTIONS
@@ -87,4 +87,12 @@ function sayHi(name) {
     console.log('Hi, ' + name);
 }
 
-sayHi('Jessica');
+// sayHi('Jessica');
+
+function multiply(num1, num2) {
+    let product = num1 * num2;
+    return product;
+}
+
+// console.log(multiply(2,2));
+
