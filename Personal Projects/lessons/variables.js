@@ -50,14 +50,14 @@ let course = {
     hours: 3
 };
 
-console.log(course);
-console.log(course.name);
+// console.log(course);
+// console.log(course.name);
 
 course.name = 'Javascript Fundamentals';
-console.log(course['name']); // Another form to access the key value in the object besides .notation
+// console.log(course['name']); // Another form to access the key value in the object besides .notation
 
 let property = 'hours';
-console.log(course[property]); // Bracket notation is more used for when the value of key to access is not known
+// console.log(course[property]); // Bracket notation is more used for when the value of key to access is not known
 
 
 // Variables can be reasigned to other data types
@@ -72,3 +72,19 @@ testOfType = true;
 // console.log(typeof testOfType);
 
 
+let productColors = ['blue', 'green'];
+
+productColors[0] = 42; // use bracket notation to access through the index
+
+// console.log(productColors);
+
+console.log(productColors.length); // Function lenght to count the number of objects in the array
+
+
+// FUNCTIONS
+
+function sayHi(name) {
+    console.log('Hi, ' + name);
+}
+
+sayHi('Jessica');
