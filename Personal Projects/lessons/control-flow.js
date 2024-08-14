@@ -55,9 +55,28 @@ let numbers = [1, 2, 3, 4, 5, 6, 7];
 //         break;
 // }
 
-let i = 0;
+// let i = 0;
 
-do {
-    console.log(i);
-    i++;
-} while (i < 10);
+// do {
+//     console.log(i);
+//     i++;
+// } while (i < 10);
+
+
+// FOR-IN LOOPS
+
+const course = {
+    name: 'Javascript 101',
+    duration: 3,
+    sections: 7
+}
+
+for (const key in course) {
+    console.log(course[key]);
+}
+
+// FOR-OF LOOP
+
+for (let element of numbers) {
+    console.log(element);
+}
