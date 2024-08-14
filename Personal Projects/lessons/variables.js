@@ -50,16 +50,25 @@ let course = {
     hours: 3
 };
 
+console.log(course);
+console.log(course.name);
+
+course.name = 'Javascript Fundamentals';
+console.log(course['name']); // Another form to access the key value in the object besides .notation
+
+let property = 'hours';
+console.log(course[property]); // Bracket notation is more used for when the value of key to access is not known
+
 
 // Variables can be reasigned to other data types
 
 let testOfType = 'Teste';
-console.log(typeof testOfType);
+//console.log(typeof testOfType);
 
 testOfType = 100;
-console.log(typeof testOfType);
+// console.log(typeof testOfType);
 
 testOfType = true;
-console.log(typeof testOfType);
+// console.log(typeof testOfType);
 
 
