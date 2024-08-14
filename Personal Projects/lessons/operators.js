@@ -16,6 +16,22 @@ const canDrive = age >= 16 ? true: false;
 let points = 110;
 const customerType = points > 100 ? 'gold': 'silver';
 // funciona quase como um if statement de uma linha só pra associar valores pre-determinados a uma variável
-console.log(customerType);
+// console.log(customerType);
 
 
+// LOGICAL OPERATORS
+
+// or is -> || 
+// and is -> &&
+// not is -> ! (used to return the inverse of the boolean value) 
+// if a value is null of undefined -> ??
+
+let y = null;
+const yResult = y ?? false;
+
+// console.log(yResult);
+
+// this is actualy sintactic sugar, the complete expression would be:
+
+let z = null;
+const zResult = (z !== null && z !== undefined) ? z : false;
