@@ -33,7 +33,7 @@ let hatesCoding = false;
 // Declaring indefined variables
 
 let favoritColor; // without the assignment the variable doesn't have a type
-console.log(favoritColor);
+//console.log(favoritColor);
 
 // Declaring nulls -> use to clean a value from a variable
 
@@ -49,5 +49,17 @@ let course = {
     name: 'Javascript for Beginners',
     hours: 3
 };
+
+
+// Variables can be reasigned to other data types
+
+let testOfType = 'Teste';
+console.log(typeof testOfType);
+
+testOfType = 100;
+console.log(typeof testOfType);
+
+testOfType = true;
+console.log(typeof testOfType);
 
 
