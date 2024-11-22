@@ -94,5 +94,5 @@ function multiply(num1, num2) {
     return product;
 }
 
-// console.log(multiply(2,2));
+console.log(multiply(2,2));
 
